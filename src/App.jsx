@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Signup from './components/users/Signup';
+import SignUp from './components/user/SignUp';
 import Cart from './pages/Cart';
-import Product from './components/products/Product';
-import Products from './components/products/Products'
+import Product from './components/Products/Product';
+import Products from './components/Products/Products'
 import Checkout from './pages/Checkout';
-import Confirmation from './pages/Confirmation';
+import Confirmation from './pages/Confirmation/';
 
-function App() {
+export default function App() {
   return (
     <>
       <Router>
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Profile" element={<Profile />} />
-            <Route path="/Signup" element={<Signup />} />
+            <Route path="/SignUp" element={<SignUp />} />
             <Route path="/Cart" element={<Cart />} />
             <Route path="/Checkout" element={<Checkout />} />
             <Route path="/Product/:id" element={<Product />} />
@@ -29,6 +29,3 @@ function App() {
     </>
   )
 }
-
-export default App;
-

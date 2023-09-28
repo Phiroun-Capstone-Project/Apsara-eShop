@@ -1,13 +1,13 @@
-import Mycart from "../components/cart/Mycart";
-import NavBar from "../components/NavBar";
-import '../style/Cart.css';
+import MyCart from "../components/cart/MyCart"
+import NavBar from "../components/NavBar"
+import '../style/cart.css';
 
 export default function Cart() {
     return (
         <>
         <h1 className="title">Cart</h1>
         <NavBar />
-        <Mycart />
+        <MyCart />
         </>
     )
 }

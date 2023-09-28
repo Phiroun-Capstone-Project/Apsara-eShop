@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "../../style/Login.css";
-import { fetchAllUsers } from "../../API/user";
+import "../../style/login.css";
+import { fetchAllUsers } from "../../API/users";
 
 
 

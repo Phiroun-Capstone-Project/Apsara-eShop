@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import '../style/Checkout.css';
+import '../style/checkout.css';
 import NavBar from '../components/NavBar';
 
 export default function CheckOut() {
@@ -20,7 +20,7 @@ export default function CheckOut() {
 
   const handlePayment = (e) => {
     e.preventDefault();
-    setTimeout(() => { navigate("/Confirmation"); }, 1200); 
+    setTimeout(() => { navigate("/PaymentSuccess"); }, 1200); 
   };
 
   const handleChange = (e) => {

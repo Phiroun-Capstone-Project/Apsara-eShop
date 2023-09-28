@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom";
-import { fetchProductById } from "../../API/Product";
+import { fetchProductById } from "../../API/Products";
 import NavBar from "../NavBar";
 import '../../style/product.css'
 
-export default function Product(){
+export default function ProductSingle(){
     const [product,setProduct] = useState({});
 
     const{id} = useParams()

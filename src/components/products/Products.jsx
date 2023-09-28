@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom";
-import { fetchAllProducts } from "../../API/Product";
+import { fetchAllProducts } from "../../API/Products";
 import '../../style/products.css';
 
 export default function ProductList(){
@@ -49,11 +49,11 @@ return(
                 {filterProducts ? filterProducts.map(product => {
                     return (
                         <div key={product.id} className="product" >
-                            <h4>{product.title}</h4>
+                            <h5 className="card-title mb-0">{product.title.substring(0,12)}...</h5>
                             <img src={product.image} width="50px" height="50px" />
-                            <p>Price: ${product.price}</p>
-                            <button onClick={()=>addToCart(product)}>Add to cart</button>
-                            <button onClick={() =>{navigate(`/Product/${product.id}`)}}>See Details</button>
+                            <p className="card-text lead fw-bold">${product.price}</p>
+                            <button onClick={()=>addToCart(product)} className="btn btn-dark btn-lg px-3 py-1">Add to cart</button>
+                            <button onClick={() =>{navigate(`/Product/${product.id}`)}} className="btn btn-dark btn-lg px-3 py-1">See Details</button>
                         </div>
                     )
                 }): null}

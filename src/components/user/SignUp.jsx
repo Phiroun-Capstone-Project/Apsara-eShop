@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
-import { fetchAllUsers } from "../../API/user"
+import { fetchAllUsers } from "../../API/users"
 import { useState } from "react"
-import '../../style/Signup.css'
+import '../../style/signUp.css'
 import NavBar from "../NavBar"
 
 export default function SignUp() {
@@ -27,7 +27,7 @@ export default function SignUp() {
             console.log("Password doesn't match.");
           }
         } catch (error) {
-          console.error(`Error occurred.`, error);
+          console.error(`Error occured.`, error);
         }
       }
 
