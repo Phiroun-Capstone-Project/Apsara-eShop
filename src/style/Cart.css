@@ -1,12 +1,4 @@
-.title {
-    text-align: center;
-    font-size: 3.2em;
-    line-height: 1.1;
-    padding-bottom: 15px;
-}
-
-.userCart {
-    
+.user-cart {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -14,26 +6,21 @@
     justify-content: center;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.68);
     padding: 10px;
-
   }
-
-  .userCart img {
+  .user-cart img {
     width: 155px;
     height: 175px;
   }
-
-.total {
+  .total {
     font-size: 25px;
   }
-
-.btnDecrease, .btnIncrease {
+  .btn-decrease, .btn-increase {
     width: 30px;
     height: 25px;
-}
-
-.btnDelete {
+  }
+  .btn-delete {
     width: 100px;
     height: 25px;
     margin-left: -2px;
     margin-right: -9px;
-}
+  }

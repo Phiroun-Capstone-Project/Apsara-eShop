@@ -1,39 +1,32 @@
-
-
 body {
     align-items: center;
     justify-content: center;
-}
-
-.loginSignUp {
+  }
+  .loginSignUp {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.subTitle {
+  }
+  .subTitle {
     text-align: center;
     justify-content: center;
     font-size: 18px;
-    
-}
-
-.loginContents {
+  }
+  .loginContents {
     display: flex;
     flex-direction: column;
     width: 300px;
     padding: 15px;
     border: 1px solid skyblue;
     border-radius: 5px;
-    
-}
-
-.username, .password {
+  }
+  .username,
+  .password {
     margin-left: 15px;
-}
-
-.bkHome, .btnSubmit, .btnSignUp {
+  }
+  .bkHome,
+  .btnSubmit,
+  .btnSignUp {
     margin-left: 22px;
-}
-
+  }
