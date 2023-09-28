@@ -1,0 +1,26 @@
+
+
+.products1 {
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .products1 h4 {
+    text-align: center;
+    width: auto;
+  }
+  
+  .product1 {
+    padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.68);
+    
+  }
+  
+  .product1 img {
+    width: 275px;
+    height: 300px;
+  }
