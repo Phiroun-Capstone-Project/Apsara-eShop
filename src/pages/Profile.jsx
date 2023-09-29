@@ -1,10 +1,10 @@
 import Login from '../components/user/Login';
-import NavBar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 
 export default function Profile() {
     return (
         <>
-        <NavBar />
+        <Navbar />
         <Login />
         </>
     );

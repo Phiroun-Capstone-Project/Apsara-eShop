@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 import { fetchAllUsers } from "../../API/users"
 import { useState } from "react"
 import '../../style/signUp.css'
-import NavBar from "../NavBar"
+import NavBar from "../Navbar"
 
 export default function SignUp() {
     const [email, setEmail] = useState('')

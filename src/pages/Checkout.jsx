@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '../style/checkout.css';
-import NavBar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 
 export default function CheckOut() {
   const navigate = useNavigate();
@@ -150,7 +150,7 @@ export default function CheckOut() {
             </form>
           </div>
         </div>
-    <NavBar />
+    <Navbar />
   </>
   );
 }

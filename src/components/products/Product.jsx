@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom";
 import { fetchProductById } from "../../API/Products";
-import NavBar from "../NavBar";
+import Navbar from "../Navbar";
 import '../../style/product.css'
 
 export default function ProductSingle(){
@@ -35,7 +35,7 @@ useEffect(() => {
             <button onClick={() =>{navigate('/')}}>Back</button>
         </div>
     </div>   
-    <NavBar />
+    <Navbar />
     </>
     )
 }

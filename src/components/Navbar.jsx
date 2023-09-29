@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import '../style/navbar.css';
 
-export default function NavBar() {
+export default function Navbar() {
     return (
-        <nav className='NavBar'>
+        <nav className='Navbar'>
             <h2> <a className="brand-name"> APSARA eSHOP </a></h2>
             <ul>
                 <li> <Link to="/">Home</Link> </li> 
