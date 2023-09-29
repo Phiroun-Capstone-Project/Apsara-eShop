@@ -4,8 +4,8 @@ import Home from './pages/Home';
 import Profile from './pages/Profile';
 import SignUp from './components/user/SignUp';
 import Cart from './pages/Cart';
-import Product from './components/Products/Product';
-import Products from './components/Products/Products'
+import Product from './components/products/Product';
+import ProductList from './components/products/ProductList';
 import Checkout from './pages/Checkout';
 import Confirmation from './pages/Confirmation/';
 
@@ -21,7 +21,7 @@ export default function App() {
             <Route path="/Cart" element={<Cart />} />
             <Route path="/Checkout" element={<Checkout />} />
             <Route path="/Product/:id" element={<Product />} />
-            <Route path="/Products" element={<Products />} />
+            <Route path="/Products" element={<ProductList />} />
             <Route path="/Confirmation" element={<Confirmation />} />
           </Routes>
         </div>
